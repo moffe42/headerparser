@@ -1,0 +1,17 @@
+{
+    "name": "jach/headerparser",
+    "description": "Parses content of $http_response_header for easy access",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Christiansen",
+            "email": "jacob@colourbox.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "HeaderParser\\": "src"  }
+    }
+}
